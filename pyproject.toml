@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "langchain-playground"
+version = "0.1.0"
+description = "📚 Learning and exploring LangChain"
+authors = ["David Groomes <dwgroomes@gmail.com>"]
+readme = "README.md"
+packages = [{include = "semantic_search"}]
+
+
+[tool.poetry.dependencies]
+python = "~3.12"
+langchain = "~0.2.6"
+langchain-community = "~0.2.6"
+langchainhub = "~0.1.20"
+langchain-openai = "~0.1.13"
+langchain-chroma = "~0.1.2"
+bs4 = "~0.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
